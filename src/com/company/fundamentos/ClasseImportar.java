@@ -1,6 +1,5 @@
-package com.company.importar;
+package com.company.fundamentos;
 
-import javax.swing.*;
 import java.util.Date;
 
 public class ClasseImportar {
