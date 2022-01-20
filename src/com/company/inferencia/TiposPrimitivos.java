@@ -1,5 +1,7 @@
 package com.company.inferencia;
 
+import java.util.Locale;
+
 public class TiposPrimitivos {
 
     public static void main(String[] args) {
@@ -31,9 +33,12 @@ public class TiposPrimitivos {
         int porcentagem = 10;
         System.out.println(salario * porcentagem + salario);
 
-        System.out.println("O aluno está de férias? " + estaDeFerias)ls;
+        System.out.println("O aluno está de férias? " + estaDeFerias);
 
         System.out.println("status: " + status);
 
+        String a = "É nois de novo".toUpperCase(Locale.ROOT);
+       // a = a.toUpperCase(Locale.ROOT);
+        System.out.println(a);
     }
 }
