@@ -31,7 +31,7 @@ public class TiposPrimitivos {
         int porcentagem = 10;
         System.out.println(salario * porcentagem + salario);
 
-        System.out.println("O aluno está de férias? " + estaDeFerias);
+        System.out.println("O aluno está de férias? " + estaDeFerias)ls;
 
         System.out.println("status: " + status);
 
